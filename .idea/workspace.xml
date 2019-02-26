@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="130">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="216">
+              <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551207909661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551208337064" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -178,20 +178,11 @@
       <option name="presentableId" value="Default" />
       <updated>1550763351620</updated>
       <workItem from="1550763352999" duration="242000" />
-      <workItem from="1551181358456" duration="5137000" />
+      <workItem from="1551181358456" duration="5567000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstClassTest - 2019.02.26 at 14h 06m 24s.xml">
-      <configuration name="FirstClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstClassTest - 2019.02.26 at 18h 47m 53s.xml">
-      <configuration name="FirstClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_net_devlance_java_isbnvalidator - 2019.02.26 at 18h 52m 49s.xml">
-      <configuration name="All in net.devlance.java.isbnvalidator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstClassTest - 2019.02.26 at 18h 53m 20s.xml">
       <configuration name="FirstClassTest" configurationId="JUnit" />
     </history-entry>
@@ -213,9 +204,18 @@
     <history-entry file="FirstClassTest - 2019.02.26 at 19h 04m 47s.xml">
       <configuration name="FirstClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 19h 05m 11s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 19h 09m 06s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 19h 09m 40s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5379000" />
+    <option name="totallyTimeSpent" value="5809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="783" extended-state="6" />
@@ -275,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="130">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -285,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="216">
+          <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
         </state>
       </provider>
     </entry>

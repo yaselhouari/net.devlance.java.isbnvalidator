@@ -27,4 +27,10 @@ public class FirstClassTest {
         isbnValidator.checkISBN("123456789");
         //assertFalse(result);
     }
+    @Test(expected = NumberFormatException.class)
+    public void noneNumericISBNsAreNotAllowed() {
+        ISBNValidator isbnValidator = new ISBNValidator();
+        boolean result = isbnValidator.checkISBN("helloworld");
+        assertFalse(result);
+    }
 }
