@@ -8,17 +8,17 @@ public class FirstClassTest {
     @Test
     public void checkValidISBN() {
         ISBNValidator isbnValidator = new ISBNValidator();
-        boolean result = isbnValidator.checkISBN(140449116);
+        boolean result = isbnValidator.checkISBN("0140449116");
         assertTrue("first value of ISBN", result);
 
-        result = isbnValidator.checkISBN(140177396);
+        result = isbnValidator.checkISBN("0140177396");
         assertTrue("second value of ISBN", result);
     }
 
     @Test
     public void checkInvalidISBN() {
         ISBNValidator isbnValidator = new ISBNValidator();
-        boolean result = isbnValidator.checkISBN(140449117);
+        boolean result = isbnValidator.checkISBN("0140449117");
         assertFalse(result);
     }
 }
