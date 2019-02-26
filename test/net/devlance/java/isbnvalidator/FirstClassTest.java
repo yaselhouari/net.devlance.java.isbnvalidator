@@ -11,4 +11,11 @@ public class FirstClassTest {
         boolean result = isbnValidator.checkISBN(140449116);
         assertTrue(result);
     }
+
+    @Test
+    public void checkInvalidISBN() {
+        ISBNValidator isbnValidator = new ISBNValidator();
+        boolean result = isbnValidator.checkISBN(140449117);
+        assertFalse(result);
+    }
 }
