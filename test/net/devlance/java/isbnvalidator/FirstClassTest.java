@@ -1,16 +1,14 @@
 package net.devlance.java.isbnvalidator;
-
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
 public class FirstClassTest {
 
     @Test
-    public void firstTest() {
-        assertTrue(true);
+    public void checkValidISBN() {
+        ISBNValidator isbnValidator = new ISBNValidator();
+        boolean result = isbnValidator.checkISBN(140449116);
+        assertTrue(result);
     }
-
-
 }

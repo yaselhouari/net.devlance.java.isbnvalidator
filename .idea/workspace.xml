@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988924fd-6581-4238-a97e-c9a9c33d62b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net.devlance.java.isbnvalidator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/net.devlance.java.isbnvalidator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,23 +16,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/FirstClass.java">
+        <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
+        <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="108">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +57,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java" />
+        <option value="$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java" />
       </list>
     </option>
   </component>
@@ -90,7 +94,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551181548798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551188957250" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -102,6 +106,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="net.devlance.java.isbnvalidator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FirstClassTest">
     <configuration name="All in net.devlance.java.isbnvalidator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="net.devlance.java.isbnvalidator" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,8 +132,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="net.devlance.java.isbnvalidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.devlance.java.isbnvalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.devlance.java.isbnvalidator" />
+      <option name="MAIN_CLASS_NAME" value="net.devlance.java.isbnvalidator.FirstClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstClassTest.checkValidISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="net.devlance.java.isbnvalidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.devlance.java.isbnvalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.devlance.java.isbnvalidator" />
+      <option name="MAIN_CLASS_NAME" value="net.devlance.java.isbnvalidator.FirstClassTest" />
+      <option name="METHOD_NAME" value="checkValidISBN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstClassTest" />
+        <item itemvalue="JUnit.FirstClassTest.checkValidISBN" />
         <item itemvalue="JUnit.All in net.devlance.java.isbnvalidator" />
       </list>
     </recent_temporary>
@@ -142,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550763351620</updated>
       <workItem from="1550763352999" duration="242000" />
-      <workItem from="1551181358456" duration="188000" />
+      <workItem from="1551181358456" duration="1635000" />
     </task>
     <servers />
   </component>
@@ -150,9 +190,21 @@
     <history-entry file="All_in_net_devlance_java_isbnvalidator - 2019.02.26 at 11h 45m 39s.xml">
       <configuration name="All in net.devlance.java.isbnvalidator" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_net_devlance_java_isbnvalidator - 2019.02.26 at 11h 45m 55s.xml">
+      <configuration name="All in net.devlance.java.isbnvalidator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 13h 36m 43s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstClassTest_checkValidISBN - 2019.02.26 at 13h 40m 49s.xml">
+      <configuration name="FirstClassTest.checkValidISBN" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 13h 47m 24s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430000" />
+    <option name="totallyTimeSpent" value="1877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="783" extended-state="6" />
@@ -165,7 +217,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32924962" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924962" />
@@ -212,12 +264,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="270">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
