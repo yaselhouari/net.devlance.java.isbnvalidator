@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988924fd-6581-4238-a97e-c9a9c33d62b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="130">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +89,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551189281505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551189604896" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -177,17 +177,11 @@
       <option name="presentableId" value="Default" />
       <updated>1550763351620</updated>
       <workItem from="1550763352999" duration="242000" />
-      <workItem from="1551181358456" duration="1961000" />
+      <workItem from="1551181358456" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_net_devlance_java_isbnvalidator - 2019.02.26 at 11h 45m 39s.xml">
-      <configuration name="All in net.devlance.java.isbnvalidator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_net_devlance_java_isbnvalidator - 2019.02.26 at 11h 45m 55s.xml">
-      <configuration name="All in net.devlance.java.isbnvalidator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstClassTest - 2019.02.26 at 13h 36m 43s.xml">
       <configuration name="FirstClassTest" configurationId="JUnit" />
     </history-entry>
@@ -212,9 +206,15 @@
     <history-entry file="FirstClassTest - 2019.02.26 at 13h 54m 19s.xml">
       <configuration name="FirstClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 13h 54m 43s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstClassTest - 2019.02.26 at 13h 58m 18s.xml">
+      <configuration name="FirstClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2203000" />
+    <option name="totallyTimeSpent" value="2528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="783" extended-state="6" />
@@ -227,10 +227,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32924962" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/net/devlance/java/isbnvalidator/FirstClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        <state relative-caret-position="130">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

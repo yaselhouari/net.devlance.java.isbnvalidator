@@ -9,7 +9,10 @@ public class FirstClassTest {
     public void checkValidISBN() {
         ISBNValidator isbnValidator = new ISBNValidator();
         boolean result = isbnValidator.checkISBN(140449116);
-        assertTrue(result);
+        assertTrue("first value of ISBN", result);
+
+        result = isbnValidator.checkISBN(140177396);
+        assertTrue("second value of ISBN", result);
     }
 
     @Test
