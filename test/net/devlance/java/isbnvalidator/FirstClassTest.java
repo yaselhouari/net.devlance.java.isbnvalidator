@@ -21,4 +21,10 @@ public class FirstClassTest {
         boolean result = isbnValidator.checkISBN("0140449117");
         assertFalse(result);
     }
+    @Test(expected = NumberFormatException.class)
+    public void lessThanTenDigitsAreNotAllowed() {
+        ISBNValidator isbnValidator = new ISBNValidator();
+        isbnValidator.checkISBN("123456789");
+        //assertFalse(result);
+    }
 }

@@ -3,6 +3,7 @@ package net.devlance.java.isbnvalidator;
 public class ISBNValidator {
     public boolean checkISBN(String isbn) {
         int total = 0;
+        if(isbn.length() != 10 ) throw new NumberFormatException ("Less than 10 Digits are not allowed");
         for(int i=0; i<10; i++) {
             total += isbn.charAt(i) * (10 - i);
         }
