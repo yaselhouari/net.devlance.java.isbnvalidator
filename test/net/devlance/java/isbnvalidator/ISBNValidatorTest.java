@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class FirstClassTest {
+public class ISBNValidatorTest {
 
     @Test
     public void checkValidISBN() {
@@ -14,7 +14,12 @@ public class FirstClassTest {
         result = isbnValidator.checkISBN("0140177396");
         assertTrue("second value of ISBN", result);
     }
-
+    @Test
+    public void isbnNumbersEndingInAnXAreValid() {
+        ISBNValidator isbnValidator = new ISBNValidator();
+        boolean result = isbnValidator.checkISBN("012000030X");
+        assertTrue(result);
+    }
     @Test
     public void checkInvalidISBN() {
         ISBNValidator isbnValidator = new ISBNValidator();
@@ -29,8 +34,8 @@ public class FirstClassTest {
     }
     @Test(expected = NumberFormatException.class)
     public void noneNumericISBNsAreNotAllowed() {
-        ISBNValidator isbnValidator = new ISBNValidator();
-        boolean result = isbnValidator.checkISBN("helloworld");
-        assertFalse(result);
+        ISBNValidator isbnValidator = new ISBNValidator ();
+        boolean result = isbnValidator.checkISBN ( "helloworld" );
+        assertFalse ( result );
     }
 }
