@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="129">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -32,6 +32,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>10</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +105,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551362423056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551362979013" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -132,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in net.devlance.java.isbnvalidator">
+  <component name="RunManager" selected="JUnit.ISBNValidatorTest">
     <configuration name="All in net.devlance.java.isbnvalidator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="net.devlance.java.isbnvalidator" />
       <option name="PACKAGE_NAME" value="" />
@@ -206,8 +211,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in net.devlance.java.isbnvalidator" />
         <item itemvalue="JUnit.ISBNValidatorTest" />
+        <item itemvalue="JUnit.All in net.devlance.java.isbnvalidator" />
         <item itemvalue="JUnit.ISBNValidatorTest.checkInvalidISBN" />
         <item itemvalue="JUnit.ISBNValidatorTest.isbnNumbersEndingInAnXAreValid" />
         <item itemvalue="JUnit.ISBNValidatorTest.checkValidISBN" />
@@ -229,7 +234,7 @@
       <workItem from="1551270757563" duration="5754000" />
       <workItem from="1551293334189" duration="2060000" />
       <workItem from="1551354594019" duration="197000" />
-      <workItem from="1551362161019" duration="262000" />
+      <workItem from="1551362161019" duration="698000" />
     </task>
     <servers />
   </component>
@@ -266,13 +271,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14846000" />
+    <option name="totallyTimeSpent" value="15282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="783" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26738352" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26738352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,7 +286,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,7 +294,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32924962" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32924962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -390,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/devlance/java/isbnvalidator/ISBNValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="129">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -10,14 +10,14 @@ public class ISBNValidator {
     public boolean checkISBN(String isbn) {
         int total = 0;
         if (isbn.length () == LONG_ISBN_LENGTH) {
-            return isThisValidThirteenDigitsISBN ( isbn, total );
+            return isThisValidLongISBN ( isbn, total );
         } else if(isbn.length () == SHORT_ISBN_LENGTH){
-            return isThisValidTenDigitsISBN ( isbn, total );
+            return isThisValidShortISBN ( isbn, total );
         } else {
             throw new NumberFormatException ( "Digits that are not 10 or 13 are not allowed!" );
         }
     }
-    private boolean isThisValidTenDigitsISBN(String isbn, int total) {
+    private boolean isThisValidShortISBN(String isbn, int total) {
         for (int i = 0; i < SHORT_ISBN_LENGTH; i++) {
             if (!Character.isDigit ( isbn.charAt ( i ) )) {
                 if (i == 9 && isbn.charAt ( i ) == 'X') {
@@ -29,13 +29,10 @@ public class ISBNValidator {
                 total += Character.getNumericValue ( isbn.charAt ( i ) ) * (SHORT_ISBN_LENGTH - i);
             }
         }
-        if (total % SHORT_ISBN_MULTIPLIER == 0)
-            return true;
-        else
-            return false;
+        return (total % SHORT_ISBN_MULTIPLIER == 0);
     }
 
-    private boolean isThisValidThirteenDigitsISBN(String isbn, int total) {
+    private boolean isThisValidLongISBN(String isbn, int total) {
         for(int i=0; i < LONG_ISBN_LENGTH; i++) {
             if(i%2 == 0) {
                 total += Character.getNumericValue ( isbn.charAt ( i ) );
@@ -43,10 +40,6 @@ public class ISBNValidator {
                 total += Character.getNumericValue ( isbn.charAt ( i ) ) * 3;
             }
         }
-        if(total % LONG_ISBN_MULTIPLIER == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (total % LONG_ISBN_MULTIPLIER == 0);
     }
 }
